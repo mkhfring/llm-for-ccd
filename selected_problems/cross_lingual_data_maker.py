@@ -1,6 +1,7 @@
 import os
 import json
 import pathlib
+import random
 
 
 current_location = pathlib.Path(__file__).parent.resolve()
@@ -9,6 +10,8 @@ ruby = os.path.join(current_location, 'ruby_selected')
 
 java_problems = os.listdir(java)
 data = []
+
+
 
 #Positive samples: 
 id_count = 0
@@ -35,6 +38,10 @@ for p in java_problems:
             with open(os.path.join(ruby, p, ruby_submissions[j]), 'r') as f:
                 code2 = f.read()
                 
+            number_of_tokens = count_tokens(code1) + count_tokens(code2)
+            assert 1 == 1
+            if number_of_tokens > 3000:
+                assert 1 == 1
             element = {'id': id_count, 'code1': code1, 'code2': code2,'label': 1}
             data.append(element)
             positive_count = positive_count + 1
@@ -72,6 +79,7 @@ for i in range(len(java_problems)):
             id_count = id_count + 1
             negative_count = negative_count + 1
 
-
+assert 1 == 1
+random.shuffle(data)
 with open(os.path.join(current_location, 'ruby_java_test_clone.jsonl'),'w') as f:
     f.write(json.dumps(data))
