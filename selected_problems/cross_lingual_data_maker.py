@@ -12,6 +12,10 @@ java_problems = os.listdir(java)
 data = []
 
 
+def count_tokens(text):
+    words = text.split()
+    return len(words)
+
 
 #Positive samples: 
 id_count = 0
