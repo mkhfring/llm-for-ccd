@@ -1,0 +1,1958 @@
+***Data Id 105: Yes.+++
+ 
+***Data Id 230: Yes.+++
+ 
+***Data Id 107: Yes.+++
+ 
+***Data Id 968: No.+++
+ 
+***Data Id 44: Yes.+++
+ 
+***Data Id 532: No.+++
+ 
+***Data Id 95: Yes.+++
+ 
+***Data Id 219: No.+++
+ 
+***Data Id 828: No.+++
+ 
+***Data Id 696: Yes.+++
+ 
+***Data Id 511: No.+++
+ 
+***Data Id 522: No.+++
+ 
+***Data Id 140: Yes.+++
+ 
+***Data Id 390: yes+++
+ 
+***Data Id 942: no+++
+ 
+***Data Id 198: Yes.+++
+ 
+***Data Id 501: No.+++
+ 
+***Data Id 249: Yes.+++
+ 
+***Data Id 103: Yes.+++
+ 
+***Data Id 177: Yes.+++
+ 
+***Data Id 733: Yes.+++
+ 
+***Data Id 363: Yes.+++
+ 
+***Data Id 74: Yes.+++
+ 
+***Data Id 356: Yes.+++
+ 
+***Data Id 59: Yes.+++
+ 
+***Data Id 246: Yes.+++
+ 
+***Data Id 941: Yes.+++
+ 
+***Data Id 158: Yes.+++
+ 
+***Data Id 626: Yes.+++
+ 
+***Data Id 802: No.+++
+ 
+***Data Id 199: Yes.+++
+ 
+***Data Id 623: Yes.+++
+ 
+***Data Id 822: No.+++
+ 
+***Data Id 752: No.+++
+ 
+***Data Id 482: No.+++
+ 
+***Data Id 319: Yes.+++
+ 
+***Data Id 863: No.+++
+ 
+***Data Id 605: Yes.+++
+ 
+***Data Id 887: No.+++
+ 
+***Data Id 782: No.+++
+ 
+***Data Id 513: No.+++
+ 
+***Data Id 603: Yes.+++
+ 
+***Data Id 342: Yes.+++
+ 
+***Data Id 1: Yes.+++
+ 
+***Data Id 85: Yes.+++
+ 
+***Data Id 101: Yes.+++
+ 
+***Data Id 963: Yes.+++
+ 
+***Data Id 760: No.+++
+ 
+***Data Id 883: No.+++
+ 
+***Data Id 852: No.+++
+ 
+***Data Id 711: No.+++
+ 
+***Data Id 274: Yes.+++
+ 
+***Data Id 268: Yes.+++
+ 
+***Data Id 311: Yes.+++
+ 
+***Data Id 998: No.+++
+ 
+***Data Id 527: No.+++
+ 
+***Data Id 646: Yes.+++
+ 
+***Data Id 853: No.+++
+ 
+***Data Id 936: No.+++
+ 
+***Data Id 586: Yes.+++
+ 
+***Data Id 281: Yes.+++
+ 
+***Data Id 270: Yes.+++
+ 
+***Data Id 721: No.+++
+ 
+***Data Id 765: No.+++
+ 
+***Data Id 228: Yes.+++
+ 
+***Data Id 474: Yes.+++
+ 
+***Data Id 620: No.+++
+ 
+***Data Id 184: Yes.+++
+ 
+***Data Id 404: Yes.+++
+ 
+***Data Id 46: Yes.+++
+ 
+***Data Id 587: No.+++
+ 
+***Data Id 302: Yes.+++
+ 
+***Data Id 500: Yes.+++
+ 
+***Data Id 984: No.+++
+ 
+***Data Id 144: Yes.+++
+ 
+***Data Id 61: Yes.+++
+ 
+***Data Id 169: Yes.+++
+ 
+***Data Id 547: No.+++
+ 
+***Data Id 444: yes+++
+ 
+***Data Id 884: No.+++
+ 
+***Data Id 494: Yes.+++
+ 
+***Data Id 683: No.+++
+ 
+***Data Id 718: No.+++
+ 
+***Data Id 323: Yes.+++
+ 
+***Data Id 431: No.+++
+ 
+***Data Id 894: No.+++
+ 
+***Data Id 116: Yes.+++
+ 
+***Data Id 118: Yes.+++
+ 
+***Data Id 970: No.+++
+ 
+***Data Id 422: Yes.+++
+ 
+***Data Id 517: No.+++
+ 
+***Data Id 671: No.+++
+ 
+***Data Id 48: Yes.+++
+ 
+***Data Id 381: Yes.+++
+ 
+***Data Id 318: Yes.+++
+ 
+***Data Id 514: Yes.+++
+ 
+***Data Id 713: No.+++
+ 
+***Data Id 183: Yes.+++
+ 
+***Data Id 329: Yes.+++
+ 
+***Data Id 599: No.+++
+ 
+***Data Id 156: Yes.+++
+ 
+***Data Id 413: Yes.+++
+ 
+***Data Id 314: Yes.+++
+ 
+***Data Id 964: No.+++
+ 
+***Data Id 509: No.+++
+ 
+***Data Id 145: Yes.+++
+ 
+***Data Id 174: Yes.+++
+ 
+***Data Id 0: Yes.+++
+ 
+***Data Id 392: Yes.+++
+ 
+***Data Id 716: No.+++
+ 
+***Data Id 22: Yes.+++
+ 
+***Data Id 253: Yes.+++
+ 
+***Data Id 913: No.+++
+ 
+***Data Id 73: Yes.+++
+ 
+***Data Id 703: Yes.+++
+ 
+***Data Id 625: No.+++
+ 
+***Data Id 45: Yes.+++
+ 
+***Data Id 176: Yes.+++
+ 
+***Data Id 242: Yes.+++
+ 
+***Data Id 36: Yes.+++
+ 
+***Data Id 609: No.+++
+ 
+***Data Id 624: Yes.+++
+ 
+***Data Id 231: Yes.+++
+ 
+***Data Id 83: Yes.+++
+ 
+***Data Id 694: Yes.+++
+ 
+***Data Id 468: Yes.+++
+ 
+***Data Id 143: Yes.+++
+ 
+***Data Id 312: Yes.+++
+ 
+***Data Id 147: Yes.+++
+ 
+***Data Id 839: No.+++
+ 
+***Data Id 604: No.+++
+ 
+***Data Id 368: Yes.+++
+ 
+***Data Id 325: Yes.+++
+ 
+***Data Id 737: Yes.+++
+ 
+***Data Id 705: no+++
+ 
+***Data Id 927: Yes.+++
+ 
+***Data Id 349: Yes.+++
+ 
+***Data Id 660: No.+++
+ 
+***Data Id 370: Yes.+++
+ 
+***Data Id 591: No.+++
+ 
+***Data Id 876: No.+++
+ 
+***Data Id 407: Yes.+++
+ 
+***Data Id 456: Yes.+++
+ 
+***Data Id 847: Yes.+++
+ 
+***Data Id 680: No.+++
+ 
+***Data Id 921: No.+++
+ 
+***Data Id 366: Yes.+++
+ 
+***Data Id 536: No.+++
+ 
+***Data Id 18: Yes.+++
+ 
+***Data Id 4: Yes.+++
+ 
+***Data Id 470: Yes.+++
+ 
+***Data Id 251: Yes.+++
+ 
+***Data Id 799: Yes.+++
+ 
+***Data Id 296: Yes.+++
+ 
+***Data Id 875: No.+++
+ 
+***Data Id 326: Yes.+++
+ 
+***Data Id 872: No.+++
+ 
+***Data Id 563: No.+++
+ 
+***Data Id 898: no+++
+ 
+***Data Id 787: no+++
+ 
+***Data Id 602: No.+++
+ 
+***Data Id 704: Yes.+++
+ 
+***Data Id 462: Yes.+++
+ 
+***Data Id 186: Yes.+++
+ 
+***Data Id 534: Yes.+++
+ 
+***Data Id 928: Yes.+++
+ 
+***Data Id 893: No.+++
+ 
+***Data Id 939: No.+++
+ 
+***Data Id 210: Yes.+++
+ 
+***Data Id 23: Yes.+++
+ 
+***Data Id 759: No.+++
+ 
+***Data Id 220: Yes.+++
+ 
+***Data Id 119: Yes.+++
+ 
+***Data Id 615: Yes.+++
+ 
+***Data Id 430: Yes.+++
+ 
+***Data Id 31: Yes.+++
+ 
+***Data Id 731: No.+++
+ 
+***Data Id 369: Yes.+++
+ 
+***Data Id 638: Yes.+++
+ 
+***Data Id 70: yes+++
+ 
+***Data Id 786: No.+++
+ 
+***Data Id 886: No.+++
+ 
+***Data Id 160: Yes.+++
+ 
+***Data Id 726: No.+++
+ 
+***Data Id 981: No.+++
+ 
+***Data Id 393: Yes.+++
+ 
+***Data Id 931: yes+++
+ 
+***Data Id 689: No.+++
+ 
+***Data Id 728: No.+++
+ 
+***Data Id 818: No+++
+ 
+***Data Id 55: Yes.+++
+ 
+***Data Id 570: No.+++
+ 
+***Data Id 681: No.+++
+ 
+***Data Id 453: Yes.+++
+ 
+***Data Id 776: No.+++
+ 
+***Data Id 629: Yes.+++
+ 
+***Data Id 677: Yes.+++
+ 
+***Data Id 651: No.+++
+ 
+***Data Id 409: Yes.+++
+ 
+***Data Id 809: Yes.+++
+ 
+***Data Id 880: No.+++
+ 
+***Data Id 771: No.+++
+ 
+***Data Id 9: Yes.+++
+ 
+***Data Id 359: Yes.+++
+ 
+***Data Id 197: Yes.+++
+ 
+***Data Id 1000: No.+++
+ 
+***Data Id 785: No.+++
+ 
+***Data Id 394: Yes.+++
+ 
+***Data Id 126: Yes.+++
+ 
+***Data Id 908: No.+++
+ 
+***Data Id 987: Yes.+++
+ 
+***Data Id 134: Yes.+++
+ 
+***Data Id 791: No.+++
+ 
+***Data Id 584: No.+++
+ 
+***Data Id 734: Yes.+++
+ 
+***Data Id 98: Yes.+++
+ 
+***Data Id 578: No.+++
+ 
+***Data Id 636: Yes.+++
+ 
+***Data Id 452: Yes.+++
+ 
+***Data Id 628: No.+++
+ 
+***Data Id 515: No.+++
+ 
+***Data Id 300: Yes.+++
+ 
+***Data Id 454: Yes.+++
+ 
+***Data Id 611: No.+++
+ 
+***Data Id 67: Yes.+++
+ 
+***Data Id 957: Yes.+++
+ 
+***Data Id 315: Yes.+++
+ 
+***Data Id 588: No.+++
+ 
+***Data Id 657: No.+++
+ 
+***Data Id 166: Yes.+++
+ 
+***Data Id 273: Yes.+++
+ 
+***Data Id 88: Yes.+++
+ 
+***Data Id 195: Yes.+++
+ 
+***Data Id 978: No.+++
+ 
+***Data Id 943: no+++
+ 
+***Data Id 227: Yes.+++
+ 
+***Data Id 178: Yes.+++
+ 
+***Data Id 129: Yes.+++
+ 
+***Data Id 182: Yes.+++
+ 
+***Data Id 37: Yes.+++
+ 
+***Data Id 240: Yes.+++
+ 
+***Data Id 63: Yes.+++
+ 
+***Data Id 306: yes+++
+ 
+***Data Id 676: Yes.+++
+ 
+***Data Id 372: Yes.+++
+ 
+***Data Id 438: Yes.+++
+ 
+***Data Id 87: Yes.+++
+ 
+***Data Id 132: Yes.+++
+ 
+***Data Id 188: Yes.+++
+ 
+***Data Id 743: No.+++
+ 
+***Data Id 524: No.+++
+ 
+***Data Id 417: Yes.+++
+ 
+***Data Id 867: No.+++
+ 
+***Data Id 304: Yes.+++
+ 
+***Data Id 975: No.+++
+ 
+***Data Id 215: Yes.+++
+ 
+***Data Id 525: No.+++
+ 
+***Data Id 287: Yes.+++
+ 
+***Data Id 937: No.+++
+ 
+***Data Id 439: Yes.+++
+ 
+***Data Id 324: Yes.+++
+ 
+***Data Id 180: Yes.+++
+ 
+***Data Id 577: No.+++
+ 
+***Data Id 451: Yes.+++
+ 
+***Data Id 269: Yes.+++
+ 
+***Data Id 739: Yes.+++
+ 
+***Data Id 865: No.+++
+ 
+***Data Id 477: Yes.+++
+ 
+***Data Id 647: No.+++
+ 
+***Data Id 554: No.+++
+ 
+***Data Id 635: Yes.+++
+ 
+***Data Id 99: Yes.+++
+ 
+***Data Id 504: No.+++
+ 
+***Data Id 398: yes+++
+ 
+***Data Id 351: Yes.+++
+ 
+***Data Id 171: Yes.+++
+ 
+***Data Id 261: Yes.+++
+ 
+***Data Id 779: Yes.+++
+ 
+***Data Id 940: Yes.+++
+ 
+***Data Id 783: No.+++
+ 
+***Data Id 548: No.+++
+ 
+***Data Id 816: Yes.+++
+ 
+***Data Id 357: Yes.+++
+ 
+***Data Id 449: Yes.+++
+ 
+***Data Id 328: Yes.+++
+ 
+***Data Id 346: Yes.+++
+ 
+***Data Id 549: No.+++
+ 
+***Data Id 168: Yes.+++
+ 
+***Data Id 208: Yes.+++
+ 
+***Data Id 995: No.+++
+ 
+***Data Id 303: yes+++
+ 
+***Data Id 868: No.+++
+ 
+***Data Id 904: No.+++
+ 
+***Data Id 650: Yes.+++
+ 
+***Data Id 397: Yes.+++
+ 
+***Data Id 175: Yes.+++
+ 
+***Data Id 959: Yes.+++
+ 
+***Data Id 424: Yes.+++
+ 
+***Data Id 30: Yes.+++
+ 
+***Data Id 910: Yes.+++
+ 
+***Data Id 68: Yes.+++
+ 
+***Data Id 2: Yes.+++
+ 
+***Data Id 938: Yes.+++
+ 
+***Data Id 757: No.+++
+ 
+***Data Id 241: Yes.+++
+ 
+***Data Id 62: Yes.+++
+ 
+***Data Id 889: No.+++
+ 
+***Data Id 367: Yes.+++
+ 
+***Data Id 316: yes+++
+ 
+***Data Id 248: yes+++
+ 
+***Data Id 774: No.+++
+ 
+***Data Id 999: No.+++
+ 
+***Data Id 29: Yes.+++
+ 
+***Data Id 120: Yes.+++
+ 
+***Data Id 191: Yes.+++
+ 
+***Data Id 333: Yes.+++
+ 
+***Data Id 985: No.+++
+ 
+***Data Id 589: Yes.+++
+ 
+***Data Id 151: Yes.+++
+ 
+***Data Id 825: No.+++
+ 
+***Data Id 630: No.+++
+ 
+***Data Id 499: Yes.+++
+ 
+***Data Id 773: No.+++
+ 
+***Data Id 469: Yes.+++
+ 
+***Data Id 420: Yes.+++
+ 
+***Data Id 278: Yes.+++
+ 
+***Data Id 57: Yes.+++
+ 
+***Data Id 720: Yes.+++
+ 
+***Data Id 299: Yes.+++
+ 
+***Data Id 19: Yes.+++
+ 
+***Data Id 644: No.+++
+ 
+***Data Id 668: No.+++
+ 
+***Data Id 772: No.+++
+ 
+***Data Id 307: Yes.+++
+ 
+***Data Id 859: No.+++
+ 
+***Data Id 585: Yes.+++
+ 
+***Data Id 571: No.+++
+ 
+***Data Id 7: Yes.+++
+ 
+***Data Id 632: Yes.+++
+ 
+***Data Id 406: Yes.+++
+ 
+***Data Id 43: Yes.+++
+ 
+***Data Id 996: No.+++
+ 
+***Data Id 298: Yes.+++
+ 
+***Data Id 86: Yes.+++
+ 
+***Data Id 498: Yes.+++
+ 
+***Data Id 25: Yes.+++
+ 
+***Data Id 744: No.+++
+ 
+***Data Id 645: Yes.+++
+ 
+***Data Id 13: Yes.+++
+ 
+***Data Id 330: Yes.+++
+ 
+***Data Id 991: Yes.+++
+ 
+***Data Id 371: Yes.+++
+ 
+***Data Id 255: Yes.+++
+ 
+***Data Id 229: Yes.+++
+ 
+***Data Id 419: Yes.+++
+ 
+***Data Id 520: No.+++
+ 
+***Data Id 762: No.+++
+ 
+***Data Id 362: Yes.+++
+ 
+***Data Id 28: Yes.+++
+ 
+***Data Id 244: Yes.+++
+ 
+***Data Id 47: Yes.+++
+ 
+***Data Id 932: No.+++
+ 
+***Data Id 93: Yes.+++
+ 
+***Data Id 365: Yes.+++
+ 
+***Data Id 211: Yes.+++
+ 
+***Data Id 708: no+++
+ 
+***Data Id 735: No.+++
+ 
+***Data Id 892: No.+++
+ 
+***Data Id 479: Yes.+++
+ 
+***Data Id 800: No.+++
+ 
+***Data Id 112: Yes.+++
+ 
+***Data Id 204: Yes.+++
+ 
+***Data Id 925: No.+++
+ 
+***Data Id 202: Yes.+++
+ 
+***Data Id 127: Yes.+++
+ 
+***Data Id 39: yes+++
+ 
+***Data Id 793: Yes.+++
+ 
+***Data Id 804: No.+++
+ 
+***Data Id 700: Yes.+++
+ 
+***Data Id 26: Yes.+++
+ 
+***Data Id 247: Yes.+++
+ 
+***Data Id 161: Yes.+++
+ 
+***Data Id 11: Yes.+++
+ 
+***Data Id 52: No.+++
+ 
+***Data Id 84: Yes.+++
+ 
+***Data Id 425: Yes.+++
+ 
+***Data Id 572: No.+++
+ 
+***Data Id 614: no+++
+ 
+***Data Id 555: No.+++
+ 
+***Data Id 391: Yes.+++
+ 
+***Data Id 956: yes+++
+ 
+***Data Id 35: Yes.+++
+ 
+***Data Id 388: Yes.+++
+ 
+***Data Id 60: Yes.+++
+ 
+***Data Id 582: No.+++
+ 
+***Data Id 489: Yes.+++
+ 
+***Data Id 310: Yes.+++
+ 
+***Data Id 850: Yes.+++
+ 
+***Data Id 769: No.+++
+ 
+***Data Id 544: No.+++
+ 
+***Data Id 553: No.+++
+ 
+***Data Id 14: Yes.+++
+ 
+***Data Id 745: No.+++
+ 
+***Data Id 284: Yes.+++
+ 
+***Data Id 20: Yes.+++
+ 
+***Data Id 649: Yes.+++
+ 
+***Data Id 50: Yes.+++
+ 
+***Data Id 196: Yes.+++
+ 
+***Data Id 658: Yes.+++
+ 
+***Data Id 289: Yes.+++
+ 
+***Data Id 206: Yes.+++
+ 
+***Data Id 558: No.+++
+ 
+***Data Id 189: Yes.+++
+ 
+***Data Id 643: No.+++
+ 
+***Data Id 795: No.+++
+ 
+***Data Id 923: No.+++
+ 
+***Data Id 66: Yes.+++
+ 
+***Data Id 139: Yes.+++
+ 
+***Data Id 640: No.+++
+ 
+***Data Id 616: No.+++
+ 
+***Data Id 871: No.+++
+ 
+***Data Id 817: Yes.+++
+ 
+***Data Id 476: Yes.+++
+ 
+***Data Id 953: No.+++
+ 
+***Data Id 806: Yes.+++
+ 
+***Data Id 53: No.+++
+ 
+***Data Id 862: No.+++
+ 
+***Data Id 380: Yes.+++
+ 
+***Data Id 659: Yes.+++
+ 
+***Data Id 292: Yes.+++
+ 
+***Data Id 207: No.+++
+ 
+***Data Id 798: No.+++
+ 
+***Data Id 309: Yes.+++
+ 
+***Data Id 926: Yes.+++
+ 
+***Data Id 885: No.+++
+ 
+***Data Id 895: No.+++
+ 
+***Data Id 948: No.+++
+ 
+***Data Id 874: No.+++
+ 
+***Data Id 902: Yes.+++
+ 
+***Data Id 341: Yes.+++
+ 
+***Data Id 201: Yes.+++
+ 
+***Data Id 835: Yes.+++
+ 
+***Data Id 608: No.+++
+ 
+***Data Id 437: Yes.+++
+ 
+***Data Id 234: Yes.+++
+ 
+***Data Id 478: Yes.+++
+ 
+***Data Id 622: No.+++
+ 
+***Data Id 595: Yes.+++
+ 
+***Data Id 405: Yes.+++
+ 
+***Data Id 610: No.+++
+ 
+***Data Id 574: No.+++
+ 
+***Data Id 992: No.+++
+ 
+***Data Id 842: Yes.+++
+ 
+***Data Id 213: Yes.+++
+ 
+***Data Id 551: No.+++
+ 
+***Data Id 706: Yes.+++
+ 
+***Data Id 150: Yes.+++
+ 
+***Data Id 259: Yes.+++
+ 
+***Data Id 915: No.+++
+ 
+***Data Id 662: No.+++
+ 
+***Data Id 209: Yes.+++
+ 
+***Data Id 295: Yes.+++
+ 
+***Data Id 531: No.+++
+ 
+***Data Id 179: Yes.+++
+ 
+***Data Id 301: Yes.+++
+ 
+***Data Id 730: no+++
+ 
+***Data Id 648: Yes.+++
+ 
+***Data Id 788: Yes.+++
+ 
+***Data Id 627: Yes.+++
+ 
+***Data Id 434: Yes.+++
+ 
+***Data Id 410: Yes.+++
+ 
+***Data Id 386: Yes.+++
+ 
+***Data Id 214: Yes.+++
+ 
+***Data Id 224: Yes.+++
+ 
+***Data Id 780: Yes.+++
+ 
+***Data Id 384: Yes.+++
+ 
+***Data Id 138: Yes.+++
+ 
+***Data Id 855: No.+++
+ 
+***Data Id 484: Yes.+++
+ 
+***Data Id 841: No.+++
+ 
+***Data Id 493: Yes.+++
+ 
+***Data Id 291: Yes.+++
+ 
+***Data Id 581: No.+++
+ 
+***Data Id 297: Yes.+++
+ 
+***Data Id 79: Yes.+++
+ 
+***Data Id 80: Yes.+++
+ 
+***Data Id 621: No.+++
+ 
+***Data Id 108: Yes.+++
+ 
+***Data Id 260: Yes.+++
+ 
+***Data Id 924: No.+++
+ 
+***Data Id 723: No.+++
+ 
+***Data Id 967: No.+++
+ 
+***Data Id 343: Yes.+++
+ 
+***Data Id 308: Yes.+++
+ 
+***Data Id 443: Yes.+++
+ 
+***Data Id 900: No.+++
+ 
+***Data Id 719: No.+++
+ 
+***Data Id 267: Yes.+++
+ 
+***Data Id 729: No.+++
+ 
+***Data Id 693: Yes.+++
+ 
+***Data Id 332: Yes.+++
+ 
+***Data Id 597: Yes.+++
+ 
+***Data Id 117: Yes.+++
+ 
+***Data Id 669: No.+++
+ 
+***Data Id 911: No.+++
+ 
+***Data Id 807: No.+++
+ 
+***Data Id 321: Yes.+++
+ 
+***Data Id 352: yes+++
+ 
+***Data Id 374: Yes.+++
+ 
+***Data Id 634: No.+++
+ 
+***Data Id 293: Yes.+++
+ 
+***Data Id 167: Yes.+++
+ 
+***Data Id 861: No.+++
+ 
+***Data Id 142: Yes.+++
+ 
+***Data Id 436: Yes.+++
+ 
+***Data Id 243: Yes.+++
+ 
+***Data Id 378: Yes.+++
+ 
+***Data Id 986: Yes.+++
+ 
+***Data Id 8: Yes.+++
+ 
+***Data Id 971: Yes.+++
+ 
+***Data Id 471: Yes.+++
+ 
+***Data Id 699: No.+++
+ 
+***Data Id 190: Yes.+++
+ 
+***Data Id 592: No.+++
+ 
+***Data Id 958: No.+++
+ 
+***Data Id 596: No.+++
+ 
+***Data Id 533: No.+++
+ 
+***Data Id 606: Yes.+++
+ 
+***Data Id 993: No.+++
+ 
+***Data Id 34: Yes.+++
+ 
+***Data Id 954: No.+++
+ 
+***Data Id 870: No.+++
+ 
+***Data Id 750: Yes.+++
+ 
+***Data Id 767: Yes.+++
+ 
+***Data Id 157: Yes.+++
+ 
+***Data Id 535: No.+++
+ 
+***Data Id 27: Yes.+++
+ 
+***Data Id 899: Yes.+++
+ 
+***Data Id 844: Yes.+++
+ 
+***Data Id 997: No.+++
+ 
+***Data Id 135: Yes.+++
+ 
+***Data Id 698: No.+++
+ 
+***Data Id 104: Yes.+++
+ 
+***Data Id 505: No.+++
+ 
+***Data Id 82: Yes.+++
+ 
+***Data Id 600: No.+++
+ 
+***Data Id 670: No.+++
+ 
+***Data Id 235: Yes.+++
+ 
+***Data Id 432: Yes.+++
+ 
+***Data Id 590: No.+++
+ 
+***Data Id 877: No.+++
+ 
+***Data Id 672: No.+++
+ 
+***Data Id 355: Yes.+++
+ 
+***Data Id 966: No.+++
+ 
+***Data Id 988: Yes.+++
+ 
+***Data Id 461: Yes.+++
+ 
+***Data Id 741: No.+++
+ 
+***Data Id 153: Yes.+++
+ 
+***Data Id 873: No.+++
+ 
+***Data Id 516: No.+++
+ 
+***Data Id 764: No.+++
+ 
+***Data Id 829: No.+++
+ 
+***Data Id 322: yes+++
+ 
+***Data Id 950: No.+++
+ 
+***Data Id 97: Yes.+++
+ 
+***Data Id 414: Yes.+++
+ 
+***Data Id 442: yes+++
+ 
+***Data Id 916: No.+++
+ 
+***Data Id 193: Yes.+++
+ 
+***Data Id 65: Yes.+++
+ 
+***Data Id 529: No.+++
+ 
+***Data Id 849: No.+++
+ 
+***Data Id 962: No.+++
+ 
+***Data Id 280: Yes.+++
+ 
+***Data Id 288: Yes.+++
+ 
+***Data Id 172: Yes.+++
+ 
+***Data Id 115: no+++
+ 
+***Data Id 78: Yes.+++
+ 
+***Data Id 146: Yes.+++
+ 
+***Data Id 801: No.+++
+ 
+***Data Id 448: Yes.+++
+ 
+***Data Id 749: No.+++
+ 
+***Data Id 972: Yes.+++
+ 
+***Data Id 917: No.+++
+ 
+***Data Id 337: Yes.+++
+ 
+***Data Id 761: No.+++
+ 
+***Data Id 742: No.+++
+ 
+***Data Id 679: No.+++
+ 
+***Data Id 339: yes+++
+ 
+***Data Id 250: Yes.+++
+ 
+***Data Id 666: No.+++
+ 
+***Data Id 507: No.+++
+ 
+***Data Id 90: Yes.+++
+ 
+***Data Id 467: Yes.+++
+ 
+***Data Id 831: No.+++
+ 
+***Data Id 990: Yes.+++
+ 
+***Data Id 686: No.+++
+ 
+***Data Id 285: Yes.+++
+ 
+***Data Id 903: No.+++
+ 
+***Data Id 790: yes+++
+ 
+***Data Id 149: Yes.+++
+ 
+***Data Id 486: Yes.+++
+ 
+***Data Id 364: Yes.+++
+ 
+***Data Id 656: No.+++
+ 
+***Data Id 896: no+++
+ 
+***Data Id 675: No.+++
+ 
+***Data Id 465: Yes.+++
+ 
+***Data Id 546: Yes.+++
+ 
+***Data Id 530: No.+++
+ 
+***Data Id 335: Yes.+++
+ 
+***Data Id 661: Yes.+++
+ 
+***Data Id 521: No.+++
+ 
+***Data Id 327: No.+++
+ 
+***Data Id 775: No.+++
+ 
+***Data Id 131: Yes.+++
+ 
+***Data Id 714: Yes.+++
+ 
+***Data Id 159: Yes.+++
+ 
+***Data Id 426: Yes.+++
+ 
+***Data Id 854: No.+++
+ 
+***Data Id 433: Yes.+++
+ 
+***Data Id 930: Yes.+++
+ 
+***Data Id 450: Yes.+++
+ 
+***Data Id 653: No.+++
+ 
+***Data Id 136: Yes.+++
+ 
+***Data Id 633: No.+++
+ 
+***Data Id 402: yes+++
+ 
+***Data Id 389: Yes.+++
+ 
+***Data Id 475: Yes.+++
+ 
+***Data Id 114: Yes.+++
+ 
+***Data Id 523: No.+++
+ 
+***Data Id 702: No.+++
+ 
+***Data Id 631: No.+++
+ 
+***Data Id 24: Yes.+++
+ 
+***Data Id 170: Yes.+++
+ 
+***Data Id 550: No.+++
+ 
+***Data Id 216: Yes.+++
+ 
+***Data Id 408: Yes.+++
+ 
+***Data Id 245: Yes.+++
+ 
+***Data Id 687: Yes.+++
+ 
+***Data Id 565: No.+++
+ 
+***Data Id 279: Yes.+++
+ 
+***Data Id 732: No.+++
+ 
+***Data Id 236: Yes.+++
+ 
+***Data Id 826: No.+++
+ 
+***Data Id 72: Yes.+++
+ 
+***Data Id 282: Yes.+++
+ 
+***Data Id 340: Yes.+++
+ 
+***Data Id 133: Yes.+++
+ 
+***Data Id 464: Yes.+++
+ 
+***Data Id 803: No.+++
+ 
+***Data Id 16: Yes.+++
+ 
+***Data Id 960: Yes.+++
+ 
+***Data Id 421: Yes.+++
+ 
+***Data Id 233: Yes.+++
+ 
+***Data Id 881: No.+++
+ 
+***Data Id 697: No.+++
+ 
+***Data Id 447: Yes.+++
+ 
+***Data Id 383: Yes.+++
+ 
+***Data Id 313: Yes.+++
+ 
+***Data Id 690: Yes.+++
+ 
+***Data Id 792: No.+++
+ 
+***Data Id 712: No.+++
+ 
+***Data Id 594: No.+++
+ 
+***Data Id 466: Yes.+++
+ 
+***Data Id 77: Yes.+++
+ 
+***Data Id 983: No.+++
+ 
+***Data Id 929: yes+++
+ 
+***Data Id 755: No.+++
+ 
+***Data Id 58: Yes.+++
+ 
+***Data Id 768: Yes.+++
+ 
+***Data Id 154: Yes.+++
+ 
+***Data Id 813: No.+++
+ 
+***Data Id 912: No.+++
+ 
+***Data Id 162: Yes.+++
+ 
+***Data Id 12: Yes.+++
+ 
+***Data Id 463: Yes.+++
+ 
+***Data Id 827: No.+++
+ 
+***Data Id 387: Yes.+++
+ 
+***Data Id 811: Yes.+++
+ 
+***Data Id 379: Yes.+++
+ 
+***Data Id 561: No.+++
+ 
+***Data Id 382: Yes.+++
+ 
+***Data Id 488: Yes.+++
+ 
+***Data Id 336: Yes.+++
+ 
+***Data Id 429: Yes.+++
+ 
+***Data Id 200: Yes.+++
+ 
+***Data Id 834: No.+++
+ 
+***Data Id 502: Yes.+++
+ 
+***Data Id 568: No.+++
+ 
+***Data Id 76: Yes.+++
+ 
+***Data Id 797: No.+++
+ 
+***Data Id 490: Yes.+++
+ 
+***Data Id 642: Yes.+++
+ 
+***Data Id 573: No.+++
+ 
+***Data Id 843: No.+++
+ 
+***Data Id 820: No.+++
+ 
+***Data Id 102: Yes.+++
+ 
+***Data Id 113: Yes.+++
+ 
+***Data Id 864: No.+++
+ 
+***Data Id 639: Yes.+++
+ 
+***Data Id 192: Yes.+++
+ 
+***Data Id 71: Yes.+++
+ 
+***Data Id 100: Yes.+++
+ 
+***Data Id 736: Yes.+++
+ 
+***Data Id 909: Yes.+++
+ 
+***Data Id 901: Yes.+++
+ 
+***Data Id 770: No.+++
+ 
+***Data Id 949: No.+++
+ 
+***Data Id 766: Yes.+++
+ 
+***Data Id 754: Yes.+++
+ 
+***Data Id 980: No.+++
+ 
+***Data Id 965: No.+++
+ 
+***Data Id 275: Yes.+++
+ 
+***Data Id 416: Yes.+++
+ 
+***Data Id 607: No.+++
+ 
+***Data Id 111: Yes.+++
+ 
+***Data Id 810: No.+++
+ 
+***Data Id 283: Yes.+++
+ 
+***Data Id 688: No.+++
+ 
+***Data Id 763: No.+++
+ 
+***Data Id 164: Yes.+++
+ 
+***Data Id 446: Yes.+++
+ 
+***Data Id 753: Yes.+++
+ 
+***Data Id 473: Yes.+++
+ 
+***Data Id 724: No.+++
+ 
+***Data Id 838: No.+++
+ 
+***Data Id 225: Yes.+++
+ 
+***Data Id 654: No.+++
+ 
+***Data Id 64: Yes.+++
+ 
+***Data Id 747: Yes.+++
+ 
+***Data Id 789: yes+++
+ 
+***Data Id 222: Yes.+++
+ 
+***Data Id 837: No.+++
+ 
+***Data Id 218: Yes.+++
+ 
+***Data Id 130: Yes.+++
+ 
+***Data Id 344: Yes.+++
+ 
+***Data Id 805: No.+++
+ 
+***Data Id 345: Yes.+++
+ 
+***Data Id 678: No.+++
+ 
+***Data Id 266: No.+++
+ 
+***Data Id 740: No.+++
+ 
+***Data Id 542: No.+++
+ 
+***Data Id 891: No.+++
+ 
+***Data Id 710: No.+++
+ 
+***Data Id 974: No.+++
+ 
+***Data Id 569: No.+++
+ 
+***Data Id 557: No.+++
+ 
+***Data Id 845: No.+++
+ 
+***Data Id 128: Yes.+++
+ 
+***Data Id 982: Yes.+++
+ 
+***Data Id 667: No.+++
+ 
+***Data Id 271: Yes.+++
+ 
+***Data Id 619: No.+++
+ 
+***Data Id 848: No.+++
+ 
+***Data Id 427: Yes.+++
+ 
+***Data Id 238: Yes.+++
+ 
+***Data Id 441: Yes.+++
+ 
+***Data Id 709: No.+++
+ 
+***Data Id 955: No.+++
+ 
+***Data Id 836: No.+++
+ 
+***Data Id 262: Yes.+++
+ 
+***Data Id 945: No.+++
+ 
+***Data Id 673: No.+++
+ 
+***Data Id 459: Yes.+++
+ 
+***Data Id 538: No.+++
+ 
+***Data Id 152: Yes.+++
+ 
+***Data Id 173: Yes.+++
+ 
+***Data Id 440: Yes.+++
+ 
+***Data Id 567: No.+++
+ 
+***Data Id 256: Yes.+++
+ 
+***Data Id 815: No.+++
+ 
+***Data Id 40: Yes.+++
+ 
+***Data Id 543: No.+++
+ 
+***Data Id 727: No.+++
+ 
+***Data Id 217: Yes.+++
+ 
+***Data Id 163: Yes.+++
+ 
+***Data Id 969: Yes.+++
+ 
+***Data Id 821: No.+++
+ 
+***Data Id 819: No.+++
+ 
+***Data Id 395: Yes.+++
+ 
+***Data Id 934: Yes.+++
+ 
+***Data Id 508: No.+++
+ 
+***Data Id 918: No.+++
+ 
+***Data Id 305: Yes.+++
+ 
+***Data Id 562: No.+++
+ 
+***Data Id 290: Yes.+++
+ 
+***Data Id 593: No.+++
+ 
+***Data Id 977: No.+++
+ 
+***Data Id 257: Yes.+++
+ 
+***Data Id 510: No.+++
+ 
+***Data Id 42: Yes.+++
+ 
+***Data Id 858: No.+++
+ 
+***Data Id 401: No.+++
+ 
+***Data Id 400: Yes.+++
+ 
+***Data Id 576: No.+++
+ 
+***Data Id 890: No.+++
+ 
+***Data Id 537: No.+++
+ 
+***Data Id 784: No.+++
+ 
+***Data Id 907: No.+++
+ 
+***Data Id 51: Yes.+++
+ 
+***Data Id 264: Yes.+++
+ 
+***Data Id 933: No.+++
+ 
+***Data Id 832: No.+++
+ 
+***Data Id 552: No.+++
+ 
+***Data Id 75: Yes.+++
+ 
+***Data Id 226: Yes.+++
+ 
+***Data Id 122: Yes.+++
+ 
+***Data Id 254: Yes.+++
+ 
+***Data Id 994: No.+++
+ 
+***Data Id 920: Yes.+++
+ 
+***Data Id 922: No.+++
+ 
+***Data Id 415: Yes.+++
+ 
+***Data Id 566: No.+++
+ 
+***Data Id 756: No.+++
+ 
+***Data Id 141: Yes.+++
+ 
+***Data Id 54: yes+++
+ 
+***Data Id 460: Yes.+++
+ 
+***Data Id 385: Yes.+++
+ 
+***Data Id 237: Yes.+++
+ 
+***Data Id 354: yes+++
+ 
+***Data Id 348: Yes.+++
+ 
+***Data Id 674: No.+++
+ 
+***Data Id 396: No.+++
+ 
+***Data Id 418: Yes.+++
+ 
+***Data Id 503: No.+++
+ 
+***Data Id 598: No.+++
+ 
+***Data Id 403: Yes.+++
+ 
+***Data Id 481: Yes.+++
+ 
+***Data Id 545: No.+++
+ 
+***Data Id 205: Yes.+++
+ 
+***Data Id 91: Yes.+++
+ 
+***Data Id 423: Yes.+++
+ 
+***Data Id 165: Yes.+++
+ 
+***Data Id 457: Yes.+++
+ 
+***Data Id 109: Yes.+++
+ 
+***Data Id 334: Yes.+++
+ 
+***Data Id 506: No+++
+ 
+***Data Id 888: No.+++
+ 
+***Data Id 685: No.+++
+ 
+***Data Id 445: Yes.+++
+ 
+***Data Id 579: Yes.+++
+ 
+***Data Id 350: Yes.+++
+ 
+***Data Id 412: Yes.+++
+ 
+***Data Id 487: Yes.+++
+ 
+***Data Id 32: Yes.+++
+ 
+***Data Id 485: Yes.+++
+ 
+***Data Id 664: Yes.+++
+ 
+***Data Id 221: Yes.+++
+ 
+***Data Id 541: No.+++
+ 
+***Data Id 812: No.+++
+ 
+***Data Id 358: Yes.+++
+ 
+***Data Id 480: Yes.+++
+ 
+***Data Id 952: No.+++
+ 
+***Data Id 49: Yes.+++
+ 
+***Data Id 277: Yes.+++
+ 
+***Data Id 223: Yes.+++
+ 
+***Data Id 682: No.+++
+ 
+***Data Id 6: Yes.+++
+ 
+***Data Id 641: Yes.+++
+ 
+***Data Id 491: Yes.+++
+ 
+***Data Id 239: Yes.+++
+ 
+***Data Id 707: No.+++
+ 
+***Data Id 3: Yes.+++
+ 
+***Data Id 665: No.+++
+ 
+***Data Id 914: No.+++
+ 
+***Data Id 265: Yes.+++
+ 
+***Data Id 692: No.+++
+ 
+***Data Id 373: Yes.+++
+ 
+***Data Id 906: No.+++
+ 
+***Data Id 185: Yes.+++
+ 
+***Data Id 331: Yes.+++
+ 
+***Data Id 919: No.+++
+ 
+***Data Id 492: Yes.+++
+ 
+***Data Id 613: No.+++
+ 
+***Data Id 722: No.+++
+ 
+***Data Id 539: no+++
+ 
+***Data Id 777: No.+++
+ 
+***Data Id 203: Yes.+++
+ 
+***Data Id 882: No.+++
+ 
+***Data Id 778: No.+++
+ 
+***Data Id 897: No.+++
+ 
+***Data Id 272: Yes.+++
+ 
+***Data Id 263: Yes.+++
+ 
+***Data Id 148: Yes.+++
+ 
+***Data Id 695: Yes.+++
+ 
+***Data Id 96: Yes.+++
+ 
+***Data Id 187: yes+++
+ 
+***Data Id 564: No.+++
+ 
+***Data Id 360: Yes.+++
+ 
+***Data Id 946: No.+++
+ 
+***Data Id 21: Yes.+++
+ 
+***Data Id 33: Yes.+++
+ 
+***Data Id 472: Yes.+++
+ 
+***Data Id 518: No.+++
+ 
+***Data Id 212: Yes.+++
+ 
+***Data Id 575: No.+++
+ 
+***Data Id 758: No.+++
+ 
+***Data Id 458: Yes.+++
+ 
+***Data Id 347: Yes.+++
+ 
+***Data Id 110: Yes.+++
+ 
+***Data Id 181: Yes.+++
+ 
+***Data Id 856: No.+++
+ 
+***Data Id 286: Yes.+++
+ 
+***Data Id 92: Yes.+++
+ 
+***Data Id 15: Yes.+++
+ 
+***Data Id 556: No.+++
+ 
+***Data Id 38: Yes.+++
+ 
+***Data Id 526: No.+++
+ 
+***Data Id 69: Yes.+++
+ 
+***Data Id 10: Yes.+++
+ 
+***Data Id 794: No.+++
+ 
+***Data Id 56: Yes.+++
+ 
+***Data Id 655: No.+++
+ 
+***Data Id 612: No.+++
+ 
+***Data Id 823: No.+++
+ 
+***Data Id 258: Yes.+++
+ 
+***Data Id 701: Yes.+++
+ 
+***Data Id 951: No.+++
+ 
+***Data Id 399: Yes.+++
+ 
+***Data Id 663: No.+++
+ 
+***Data Id 814: No.+++
+ 
+***Data Id 905: Yes.+++
+ 
+***Data Id 483: Yes.+++
+ 
+***Data Id 857: No.+++
+ 
+***Data Id 973: No.+++
+ 
+***Data Id 294: Yes.+++
+ 
+***Data Id 121: Yes.+++
+ 
+***Data Id 691: Yes.+++
+ 
+***Data Id 860: No.+++
+ 
+***Data Id 989: Yes.+++
+ 
+***Data Id 560: No.+++
+ 
+***Data Id 684: no+++
+ 
+***Data Id 353: Yes.+++
+ 
+***Data Id 824: No.+++
+ 
+***Data Id 717: Yes.+++
+ 
+***Data Id 840: No.+++
+ 
+***Data Id 232: Yes.+++
+ 
+***Data Id 851: No.+++
+ 
+***Data Id 652: Yes.+++
+ 
+***Data Id 41: Yes.+++
+ 
+***Data Id 338: Yes.+++
+ 
+***Data Id 194: Yes.+++
+ 
+***Data Id 846: Yes.+++
+ 
+***Data Id 746: No.+++
+ 
+***Data Id 317: Yes.+++
+ 
+***Data Id 878: Yes.+++
+ 
+***Data Id 428: Yes.+++
+ 
+***Data Id 320: Yes.+++
+ 
+***Data Id 869: No.+++
+ 
+***Data Id 796: Yes.+++
+ 
+***Data Id 935: Yes.+++
+ 
+***Data Id 512: No.+++
+ 
+***Data Id 137: Yes.+++
+ 
+***Data Id 455: Yes.+++
+ 
+***Data Id 879: No.+++
+ 
+***Data Id 89: Yes.+++
+ 
+***Data Id 637: Yes.+++
+ 
+***Data Id 738: Yes.+++
+ 
+***Data Id 528: No.+++
+ 
+***Data Id 519: Yes.+++
+ 
+***Data Id 540: No.+++
+ 
+***Data Id 715: No.+++
+ 
+***Data Id 17: Yes.+++
+ 
+***Data Id 866: No.+++
+ 
+***Data Id 961: No.+++
+ 
+***Data Id 94: Yes.+++
+ 
+***Data Id 411: Yes.+++
+ 
+***Data Id 5: Yes.+++
+ 
+***Data Id 435: Yes.+++
+ 
+***Data Id 276: Yes.+++
+ 
+***Data Id 601: No.+++
+ 
+***Data Id 106: Yes.+++
+ 
+***Data Id 81: Yes.+++
+ 
+***Data Id 781: Yes.+++
+ 
+***Data Id 252: Yes.+++
+ 
+***Data Id 559: No.+++
+ 
+***Data Id 725: no+++
+ 
+***Data Id 155: Yes.+++
+ 
+***Data Id 361: Yes.+++
+ 

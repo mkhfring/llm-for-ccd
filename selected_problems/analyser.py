@@ -12,6 +12,7 @@ current_location = pathlib.Path(__file__).parent.resolve()
 def get_labels(predictions, ground_truth):
     ground_truth_labels = []
     predictions_labels = []
+    correct_positives = 0
     for element in ground_truth:
         key = list(element.keys())[0]
         assert 1 == 1
@@ -21,6 +22,14 @@ def get_labels(predictions, ground_truth):
         
         else:
             assert 1==1
+            
+    
+    for i in range(len(ground_truth_labels)):
+        if ground_truth_labels[i] == 0:
+            if ground_truth_labels[i] == predictions_labels[i]:
+                correct_positives = correct_positives + 1
+    
+    assert 1 == 1
         
     return ground_truth_labels, predictions_labels
 

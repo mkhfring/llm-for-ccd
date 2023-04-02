@@ -46,6 +46,7 @@ for p in java_problems:
             assert 1 == 1
             if number_of_tokens > 3000:
                 assert 1 == 1
+                continue
             element = {'id': id_count, 'code1': code1, 'code2': code2,'label': 1}
             data.append(element)
             positive_count = positive_count + 1
@@ -78,6 +79,12 @@ for i in range(len(java_problems)):
             with open(os.path.join(ruby, problem2, p2_sub[index]), 'r') as f:
                 code2 = f.read()
                 
+            number_of_tokens = count_tokens(code1) + count_tokens(code2)
+            assert 1 == 1
+            if number_of_tokens > 3000:
+                assert 1 == 1
+                continue
+                
             element = {'id': id_count, 'code1': code1, 'code2': code2,'label': 0}
             data.append(element)
             id_count = id_count + 1
@@ -85,5 +92,5 @@ for i in range(len(java_problems)):
 
 assert 1 == 1
 random.shuffle(data)
-with open(os.path.join(current_location, 'ruby_java_test_clone.jsonl'),'w') as f:
+with open(os.path.join(current_location, 'ruby_java_test_clone2.jsonl'),'w') as f:
     f.write(json.dumps(data))
