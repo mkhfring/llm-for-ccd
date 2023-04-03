@@ -141,11 +141,12 @@ class Analyser:
         """
         return self._extract_ground_truth_labels()
     
+    
 
 if __name__ == '__main__':
     analyser = Analyser(
         os.path.join(current_location, 'java_test_clone_2.jsonl'),
         os.path.join(current_location, 'results', 'results_java_01.txt')
     )
-    ground_truth = analyser.compute_metrics()
+    analyser.compute_metrics()
     assert analyser.predicted_results is not None

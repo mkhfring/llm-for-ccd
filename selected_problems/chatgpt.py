@@ -4,6 +4,8 @@ import pathlib
 
 import requests
 
+from analyse import Analyser
+
 
 current_location = pathlib.Path(__file__).parent.resolve()
 
@@ -60,13 +62,14 @@ class ChatGPTRequest:
                 requested_ids.append(int(line.strip()))
             
         return requested_ids
-        
                 
                
 class CodeCloneDetection:
     def __init__(self, data_file, temperature=0.3, model='gpt-3.5-turbo' ) -> None:
         self.model = model
         self.temperature = temperature
+        self.data_file = data_file
+        self.output_file = None
         self.data = self._read_data(data_file)
         self.prompts = [self._make_probmpt(d['id'], d['code1'], d['code2']) for d in self.data]
         self.gpt = ChatGPTRequest(temperature=self.temperature, model=self.model)
@@ -99,10 +102,9 @@ class CodeCloneDetection:
         return (id, prompt)
     
     def run_processing(self, requested_samples_file, output_file):
+        self.output_file = output_file
         self.gpt.process_prompts(self.prompts, requested_samples_file, output_file)
         return self
-
-
 
 
 def main():
@@ -119,6 +121,30 @@ def main():
         os.path.join(current_location, 'results', 'requested_ids_0.1.txt'), 
         os.path.join(current_location, 'results', 'results_java_01.txt')
     )
+    analyser1 = Analyser(
+        ccd01.data_file,
+        ccd01.output_file
+    )
+    analyser1.compute_metrics()
+    analyser2 = Analyser(
+        ccd01.data_file,
+        os.path.join(current_location, 'results','results_for_java2.txt')
+    )
+    analyser2.compute_metrics()
+    
+    ccd05 = CodeCloneDetection(
+        os.path.join(current_location, 'java_test_clone_2.jsonl'),
+        temperature=0.5
+    )
+    ccd05.run_processing(
+        os.path.join(current_location, 'results', 'requested_ids_0.5.txt'), 
+        os.path.join(current_location, 'results', 'results_java_0.5.txt')
+    )
+    analyser3 = Analyser(
+        ccd05.data_file,
+        ccd05.output_file
+    )
+    analyser3.compute_metrics()
     assert 1 == 1
 
 if __name__ == "__main__":
