@@ -147,7 +147,7 @@ def main():
     analyser3.compute_metrics('Metrics for java temperature 0.5', save_to_file=True)
     cross_lingual_analyser = Analyser(
         os.path.join(current_location, 'ruby_java_test_clone2.jsonl'),
-        os.path.join(current_location, 'results_for_java_ruby2.txt')
+        os.path.join(current_location, 'results', 'results_for_java_ruby2.txt')
     )
     cross_lingual_analyser.compute_metrics('Metrics for ruby java temperature 03', save_to_file=True)
     
