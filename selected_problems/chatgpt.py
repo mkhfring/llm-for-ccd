@@ -125,12 +125,12 @@ def main():
         ccd01.data_file,
         ccd01.output_file
     )
-    analyser1.compute_metrics()
+    analyser1.compute_metrics('Metrics for java temperature 0.1', save_to_file=True)
     analyser2 = Analyser(
         ccd01.data_file,
         os.path.join(current_location, 'results','results_for_java2.txt')
     )
-    analyser2.compute_metrics()
+    analyser2.compute_metrics('Metrics for java temperature 0.3', save_to_file=True)
     
     ccd05 = CodeCloneDetection(
         os.path.join(current_location, 'java_test_clone_2.jsonl'),
@@ -144,7 +144,13 @@ def main():
         ccd05.data_file,
         ccd05.output_file
     )
-    analyser3.compute_metrics()
+    analyser3.compute_metrics('Metrics for java temperature 0.5', save_to_file=True)
+    cross_lingual_analyser = Analyser(
+        os.path.join(current_location, 'ruby_java_test_clone2.jsonl'),
+        os.path.join(current_location, 'results_for_java_ruby2.txt')
+    )
+    cross_lingual_analyser.compute_metrics('Metrics for ruby java temperature 03', save_to_file=True)
+    
     assert 1 == 1
 
 if __name__ == "__main__":

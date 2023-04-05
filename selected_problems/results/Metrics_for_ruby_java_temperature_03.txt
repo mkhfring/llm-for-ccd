@@ -1,0 +1,5 @@
+Metrics for ruby java temperature 03
+
+F1 score: 0.861210559279572
+Precision: 0.8833822906742881
+Recall: 0.8627737805081633

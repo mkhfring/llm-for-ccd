@@ -102,7 +102,7 @@ class Analyser:
         samples_label = [{sample['id']: sample['label']} for sample in self.test_data]
         return samples_label
     
-    def compute_metrics(self):
+    def compute_metrics(self, description = None, save_to_file=False):
         ground_truth_labels = []
         predictions_labels = []
         
@@ -112,14 +112,22 @@ class Analyser:
             if key in self.predicted_results:
                 ground_truth_labels.append(element[key])
                 predictions_labels.append(self.predicted_results[key])
-            else:
-                assert 1 == 1
-                
         
         self.precision = precision_score(ground_truth_labels, predictions_labels, average='macro')
         self.recall = recall_score(ground_truth_labels, predictions_labels, average='macro')
         self.f1_score = f1_score(ground_truth_labels, predictions_labels, average='macro') 
-        assert 1 == 1       
+        if save_to_file:
+            self.write_results_to_file(description)
+            
+    def write_results_to_file(self, description):
+        file_description_text = f"{description}\n\n"
+        file_description_text = file_description_text + f"F1 score: {self.f1_score}\n"
+        file_description_text = file_description_text + f"Precision: {self.precision}\n"
+        file_description_text = file_description_text + f"Recall: {self.recall}\n"
+        file_name = '_'.join(description.split(" "))+'.txt'
+        with open(os.path.join(current_location, 'results', file_name), "w") as file:
+            file.write(file_description_text)
+        
         
     @property
     def predicted_results(self):
