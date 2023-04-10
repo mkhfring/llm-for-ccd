@@ -5,6 +5,7 @@ import random
 
 
 current_location = pathlib.Path(__file__).parent.resolve()
+
 java = os.path.join(current_location, 'java_selected')
 ruby = os.path.join(current_location, 'ruby_selected')
 
