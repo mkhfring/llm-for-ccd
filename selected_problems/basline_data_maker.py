@@ -36,8 +36,8 @@ class CodeBERTData(BaselineDataMaker):
         
         self._make_positive_samples()
         self._make_negative_samples()
-        self._write_json_file()
-        self._write_train_eval_files()
+        # self._write_json_file()
+        # self._write_train_eval_files()
         
     def _make_positive_samples(self):
         return NotImplementedError
@@ -63,7 +63,7 @@ class CodeBERTData(BaselineDataMaker):
         train = self.clone_pairs[:train_end_index]
         dev = self.clone_pairs[train_end_index:train_end_index + dev_test_index_length]
         test_start_index = train_end_index + dev_test_index_length
-        test = self.clone_pairs[test_start_index: test_start_index+1000]
+        test = self.clone_pairs[-1000:]
         
         with open(os.path.join(self.output_file, 'train.txt'), 'w') as trainfile:
             for train_clone_pair in train:
@@ -73,18 +73,26 @@ class CodeBERTData(BaselineDataMaker):
             for dev_clone_pair in dev:
                 devfile.write(dev_clone_pair)
                 
-        with open(os.path.join(self.output_file, 'text.txt'), 'w') as testfile:
+        with open(os.path.join(self.output_file, 'test.txt'), 'w') as testfile:
             for test_clone_pair in test:
                 testfile.write(test_clone_pair)
         
     def make_test_data(self, test_data_path):
-        pass
-        # with open(test_data_path, 'r') as file:
-        #     test_data = json.loads(file.read())
+        with open(test_data_path, 'r') as file:
+            test_data = json.loads(file.read())
         
-        # for element in test_data:
-        #     self.clone_data.append({'func': test_data['code1'], 'idx': test_data['id']})
-        #     self.clone_data.append({'func': test_data['code2'], 'idx': test_data['id']})
+        for element in test_data:
+            code1_idx = max(self.idx_list) + element['id']
+            code2_idx = max(self.idx_list) + element['id'] + 1
+            self.clone_data.append({'func': element['code1'], 'idx': str(code1_idx)})
+            self.clone_data.append({'func': element['code2'], 'idx': str(code2_idx)})
+            self.idx_list.append(code2_idx)
+            self.clone_pairs.append(f"{code1_idx}\t{code2_idx}\t{element['label']}\n")
+            
+        self._write_json_file()
+        self._write_train_eval_files()
+            
+                
         
         
 class CrossLanguageCloneDetection(CodeBERTData):
@@ -100,7 +108,7 @@ class CrossLanguageCloneDetection(CodeBERTData):
         
         positive_count = 0
         lang1_problems = os.listdir(self.data_location[0])
-        for index, p in enumerate(lang1_problems): 
+        for p in lang1_problems: 
             if '.' in p:
                 continue
             
@@ -121,6 +129,8 @@ class CrossLanguageCloneDetection(CodeBERTData):
                         
                     code1_idx = self._get_id(f1.name)
                     code2_idx = self._get_id(f2.name)
+                    self.idx_list.append(int(code1_idx))
+                    self.idx_list.append(int(code2_idx))
                         
                     lang1_sample = {'func': code1, 'idx': code1_idx}
                     lang2_sample = {'func': code2, 'idx': code2_idx}
@@ -161,6 +171,8 @@ class CrossLanguageCloneDetection(CodeBERTData):
         
                         code1_idx = self._get_id(f1.name)
                         code2_idx = self._get_id(f2.name)
+                        self.idx_list.append(int(code1_idx))
+                        self.idx_list.append(int(code2_idx))
                         
                         lang1_sample = {'func': code1, 'idx': code1_idx}
                         lang2_sample = {'func': code2, 'idx': code2_idx}
@@ -181,7 +193,7 @@ if __name__ == "__main__":
             os.path.join(current_location, 'ruby_selected'),
         ],
         os.path.join(current_location, 'clone_data'),
-        sample_size=1000
+        sample_size=1732000
     )
     cross_language_data.make_data()
     cross_language_data.make_test_data(os.path.join(current_location, 'ruby_java_test_clone2.jsonl'))
