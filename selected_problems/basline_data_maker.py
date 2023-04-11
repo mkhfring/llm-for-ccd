@@ -17,6 +17,7 @@ class BaselineDataMaker(ABC):
         self.sample_size = sample_size
         self.clone_data = []
         self.clone_pairs = []
+        self.idx_list = []
         
     def make_data(Self, clone_type=None):
         return NotImplemented
@@ -46,7 +47,7 @@ class CodeBERTData(BaselineDataMaker):
     
     def _get_id(self, file_name=None):
         id = re.findall(r'\d+', os.path.basename(file_name))[-1]
-        return int(id)
+        return str(int(id))
     
     def _write_json_file(self):
         random.shuffle(self.clone_data)
@@ -57,8 +58,13 @@ class CodeBERTData(BaselineDataMaker):
     
     def _write_train_eval_files(self):
         random.shuffle(self.clone_pairs)
-        train = self.clone_pairs[:901028]
-        dev = self.clone_pairs[901028:1316444]
+        train_end_index = 901028
+        dev_test_index_length = 415416
+        train = self.clone_pairs[:train_end_index]
+        dev = self.clone_pairs[train_end_index:train_end_index + dev_test_index_length]
+        test_start_index = train_end_index + dev_test_index_length
+        test = self.clone_pairs[test_start_index: test_start_index+1000]
+        
         with open(os.path.join(self.output_file, 'train.txt'), 'w') as trainfile:
             for train_clone_pair in train:
                 trainfile.write(train_clone_pair)
@@ -66,8 +72,19 @@ class CodeBERTData(BaselineDataMaker):
         with open(os.path.join(self.output_file, 'dev.txt'), 'w') as devfile:
             for dev_clone_pair in dev:
                 devfile.write(dev_clone_pair)
+                
+        with open(os.path.join(self.output_file, 'text.txt'), 'w') as testfile:
+            for test_clone_pair in test:
+                testfile.write(test_clone_pair)
         
-        assert 1 == 1
+    def make_test_data(self, test_data_path):
+        pass
+        # with open(test_data_path, 'r') as file:
+        #     test_data = json.loads(file.read())
+        
+        # for element in test_data:
+        #     self.clone_data.append({'func': test_data['code1'], 'idx': test_data['id']})
+        #     self.clone_data.append({'func': test_data['code2'], 'idx': test_data['id']})
         
         
 class CrossLanguageCloneDetection(CodeBERTData):
@@ -164,11 +181,7 @@ if __name__ == "__main__":
             os.path.join(current_location, 'ruby_selected'),
         ],
         os.path.join(current_location, 'clone_data'),
-        sample_size=1732000
+        sample_size=1000
     )
     cross_language_data.make_data()
-    
-            
-                
-        
-        
+    cross_language_data.make_test_data(os.path.join(current_location, 'ruby_java_test_clone2.jsonl'))
