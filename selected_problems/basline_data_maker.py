@@ -50,14 +50,14 @@ class CodeBERTData(BaselineDataMaker):
         return str(int(id))
     
     def _write_json_file(self):
-        random.shuffle(self.clone_data)
+        # random.shuffle(self.clone_data)
         with open(os.path.join(self.output_file, 'data.jsonl'), 'w') as file:
             for d in self.clone_data:
                 json_line = json.dumps(d)
                 file.write(json_line + '\n')
     
     def _write_train_eval_files(self):
-        random.shuffle(self.clone_pairs)
+        # random.shuffle(self.clone_pairs)
         train_end_index = 901028
         dev_test_index_length = 415416
         train = self.clone_pairs[:train_end_index]
@@ -78,15 +78,16 @@ class CodeBERTData(BaselineDataMaker):
                 testfile.write(test_clone_pair)
         
     def make_test_data(self, test_data_path):
+        random.shuffle(self.clone_pairs)
+        random.shuffle(self.clone_data)
         with open(test_data_path, 'r') as file:
             test_data = json.loads(file.read())
         
         for element in test_data:
-            code1_idx = max(self.idx_list) + element['id']
-            code2_idx = max(self.idx_list) + element['id'] + 1
-            self.clone_data.append({'func': element['code1'], 'idx': str(code1_idx)})
-            self.clone_data.append({'func': element['code2'], 'idx': str(code2_idx)})
-            self.idx_list.append(code2_idx)
+            code1_idx = self._get_id(element['name1'])
+            code2_idx = self._get_id(element['name2'])
+            self.clone_data.append({'func': element['code1'], 'idx': code1_idx})
+            self.clone_data.append({'func': element['code2'], 'idx': code2_idx})
             self.clone_pairs.append(f"{code1_idx}\t{code2_idx}\t{element['label']}\n")
             
         self._write_json_file()
@@ -196,4 +197,4 @@ if __name__ == "__main__":
         sample_size=1732000
     )
     cross_language_data.make_data()
-    cross_language_data.make_test_data(os.path.join(current_location, 'ruby_java_test_clone2.jsonl'))
+    cross_language_data.make_test_data(os.path.join(current_location, 'ruby_java_test_clone3.jsonl'))
