@@ -1,0 +1,5 @@
+Metrics for ruby-java temperature 0.3 prompt2
+
+F1 score: 0.8778280542986424
+Precision: 0.7899022801302932
+Recall: 0.9877800407331976

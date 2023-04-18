@@ -113,9 +113,9 @@ class Analyser:
                 ground_truth_labels.append(element[key])
                 predictions_labels.append(self.predicted_results[key])
         
-        self.precision = precision_score(ground_truth_labels, predictions_labels, average='macro')
-        self.recall = recall_score(ground_truth_labels, predictions_labels, average='macro')
-        self.f1_score = f1_score(ground_truth_labels, predictions_labels, average='macro') 
+        self.precision = precision_score(ground_truth_labels, predictions_labels)
+        self.recall = recall_score(ground_truth_labels, predictions_labels)
+        self.f1_score = f1_score(ground_truth_labels, predictions_labels) 
         if save_to_file:
             self.write_results_to_file(description)
             

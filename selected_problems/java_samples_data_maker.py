@@ -43,7 +43,7 @@ for p in java_problems:
                 
             number_of_tokens = count_tokens(code1) + count_tokens(code2)
             assert 1 == 1
-            if number_of_tokens > 3000:
+            if number_of_tokens > 200:
                 continue
                 
             element = {'id': id_count, 'code1': code1, 'code2': code2,'label': 1}
@@ -81,7 +81,7 @@ for i in range(len(java_problems)):
                 
             number_of_tokens = count_tokens(code1) + count_tokens(code2)
             assert 1 == 1
-            if number_of_tokens > 3000:
+            if number_of_tokens > 2000:
                 continue
             element = {'id': id_count, 'code1': code1, 'code2': code2,'label': 0}
             data.append(element)
@@ -89,7 +89,7 @@ for i in range(len(java_problems)):
             negative_count = negative_count + 1
 
 random.shuffle(data)
-with open(os.path.join(current_location, 'java_test_clone_2.jsonl'),'w') as f:
+with open(os.path.join(current_location, 'java_test_clone_small.jsonl'),'w') as f:
     f.write(json.dumps(data))
     
 assert 1 == 1
