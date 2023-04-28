@@ -32,6 +32,17 @@ class Analyser:
         self.report_file = report_file
         self.test_data = self.read_data(test_file)
         self.results = self._extract_results()
+        self.missed_samples = self._compute_missing_samples()
+        
+    
+    def _compute_missing_samples(self):
+        missing_ids = []
+        for sample in self.ground_truth:
+            sample_key = list(sample.keys())[0]
+            if sample_key in self.predicted_results:
+                if self.predicted_results[sample_key] != sample[sample_key]:
+                    missing_ids.append(sample_key)
+                
         
     def read_data(self, data_file):
         """
@@ -112,6 +123,7 @@ class Analyser:
             if key in self.predicted_results:
                 ground_truth_labels.append(element[key])
                 predictions_labels.append(self.predicted_results[key])
+                
         
         self.precision = precision_score(ground_truth_labels, predictions_labels)
         self.recall = recall_score(ground_truth_labels, predictions_labels)

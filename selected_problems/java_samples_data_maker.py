@@ -37,16 +37,27 @@ for p in java_problems:
             
             with open(os.path.join(java, p, submissions[i]), 'r') as f:
                 code1 = f.read()
+                code1_name = f.name
                 
             with open(os.path.join(java, p, submissions[j]), 'r') as f:
                 code2 = f.read()
+                code2_name = f.name
+                
+            
                 
             number_of_tokens = count_tokens(code1) + count_tokens(code2)
             assert 1 == 1
             if number_of_tokens > 200:
                 continue
                 
-            element = {'id': id_count, 'code1': code1, 'code2': code2,'label': 1}
+            element = {
+                'id': id_count,
+                'code1': code1,
+                'code2': code2,
+                'label': 1,
+                'name1': os.path.basename(code1_name), 
+                'name2': os.path.basename(code2_name)
+            }
             data.append(element)
             positive_count = positive_count + 1
             id_count = id_count + 1
@@ -75,15 +86,24 @@ for i in range(len(java_problems)):
             
             with open(os.path.join(java, problem1, p1_sub[index]), 'r') as f:
                 code1 = f.read()
+                code1_name = f.name
                 
             with open(os.path.join(java, problem2, p2_sub[index]), 'r') as f:
                 code2 = f.read()
+                code2_name = f.name
                 
             number_of_tokens = count_tokens(code1) + count_tokens(code2)
             assert 1 == 1
             if number_of_tokens > 2000:
                 continue
-            element = {'id': id_count, 'code1': code1, 'code2': code2,'label': 0}
+            element = {
+                'id': id_count,
+                'code1': code1,
+                'code2': code2,
+                'label': 0,
+                'name1': os.path.basename(code1_name), 
+                'name2': os.path.basename(code2_name)
+            }
             data.append(element)
             id_count = id_count + 1
             negative_count = negative_count + 1

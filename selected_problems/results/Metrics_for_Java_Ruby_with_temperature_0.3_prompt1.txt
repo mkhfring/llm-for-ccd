@@ -1,5 +1,5 @@
 Metrics for Java Ruby with temperature 0.3 prompt1
 
-F1 score: 0.8337129840546696
-Precision: 0.9432989690721649
-Recall: 0.746938775510204
+F1 score: 0.8346636259977195
+Precision: 0.9481865284974094
+Recall: 0.745417515274949
