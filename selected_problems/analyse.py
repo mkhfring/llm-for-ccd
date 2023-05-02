@@ -32,16 +32,19 @@ class Analyser:
         self.report_file = report_file
         self.test_data = self.read_data(test_file)
         self.results = self._extract_results()
-        self.missed_samples = self._compute_missing_samples()
         
     
-    def _compute_missing_samples(self):
+    def compute_missing_samples(self, type):
         missing_ids = []
         for sample in self.ground_truth:
             sample_key = list(sample.keys())[0]
             if sample_key in self.predicted_results:
                 if self.predicted_results[sample_key] != sample[sample_key]:
                     missing_ids.append(sample_key)
+                    
+        with open(os.path.join(current_location, 'results', f'{type}_missing_index.txt'), "w") as file:
+            for id in missing_ids:
+                file.write(f"{id}\n")
                 
         
     def read_data(self, data_file):
@@ -116,6 +119,7 @@ class Analyser:
     def compute_metrics(self, description = None, save_to_file=False):
         ground_truth_labels = []
         predictions_labels = []
+        unprocessed_samples = 0
         
         for element in self.ground_truth:
             key = list(element.keys())[0]
@@ -123,8 +127,9 @@ class Analyser:
             if key in self.predicted_results:
                 ground_truth_labels.append(element[key])
                 predictions_labels.append(self.predicted_results[key])
-                
-        
+            else:
+                unprocessed_samples = unprocessed_samples + 1
+                     
         self.precision = precision_score(ground_truth_labels, predictions_labels)
         self.recall = recall_score(ground_truth_labels, predictions_labels)
         self.f1_score = f1_score(ground_truth_labels, predictions_labels) 
@@ -166,7 +171,15 @@ class Analyser:
 if __name__ == '__main__':
     analyser = Analyser(
         os.path.join(current_location, 'java_test_clone_2.jsonl'),
-        os.path.join(current_location, 'results', 'results_java_01.txt')
+        os.path.join(current_location, 'results', 'results_for_java2.txt')
     )
     analyser.compute_metrics()
+    analyser.compute_missing_samples(type='java_java')
+    
+    analyser2 = Analyser(
+        os.path.join(current_location, 'ruby_java_test_clone2.jsonl'),
+        os.path.join(current_location, 'results', 'results_for_java_ruby2.txt')
+    )
+    analyser2.compute_metrics()
+    analyser2.compute_missing_samples(type='java_ruby')
     assert analyser.predicted_results is not None
