@@ -36,14 +36,21 @@ class Analyser:
     
     def compute_missing_samples(self, type):
         missing_ids = []
+        correct_ids = []
         for sample in self.ground_truth:
             sample_key = list(sample.keys())[0]
             if sample_key in self.predicted_results:
                 if self.predicted_results[sample_key] != sample[sample_key]:
                     missing_ids.append(sample_key)
+                else:
+                    correct_ids.append(sample_key)
                     
         with open(os.path.join(current_location, 'results', f'{type}_missing_index.txt'), "w") as file:
             for id in missing_ids:
+                file.write(f"{id}\n")
+                
+        with open(os.path.join(current_location, 'results', f'{type}_correct_index.txt'), "w") as file:
+            for id in correct_ids:
                 file.write(f"{id}\n")
                 
         

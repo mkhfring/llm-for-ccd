@@ -132,5 +132,6 @@ problem_descriptions/
 metadata/
 java_selected/
 ruby_selected/
+python_selected/
 train_java_selected/
 clone_data/

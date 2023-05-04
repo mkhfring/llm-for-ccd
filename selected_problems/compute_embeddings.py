@@ -10,6 +10,7 @@ from sentence_transformers import SentenceTransformer
 
 current_location = pathlib.Path(__file__).parent.resolve()
 
+
 java_location = os.path.join(current_location, 'java_selected')
 ruby_location = os.path.join(current_location, 'ruby_selected')
 problems = os.listdir(java_location)

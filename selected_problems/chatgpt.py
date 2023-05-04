@@ -293,6 +293,24 @@ def main():
     #     'Metrics for Ruby and Java with temperature 0.3 description prompt',
     #     save_to_file=True
     # )
+    
+    ccd03_prompt1_python = CodeCloneDetection(
+        os.path.join(current_location, 'python_test_clone.jsonl'),
+        temperature=0.3,
+        nl_instruction='Are code1 and code2 code clones?answer with yes or no and no explanation.'
+    )
+    ccd03_prompt1_python.run_processing(
+        os.path.join(current_location, 'results', 'requested_ids_0.3_prompt1_python.txt'),
+        os.path.join(current_location, 'results', 'results_for_python_prompt1.txt')
+    )
+    analyser_prompt1_ruby_java = Analyser(
+        ccd03_prompt1_python.data_file,
+        ccd03_prompt1_python.output_file
+    )
+    analyser_prompt1_ruby_java.compute_metrics(
+        'Metrics for python with temperature 0.3 prompt1',
+        save_to_file=True
+    )
 
 if __name__ == "__main__":
     main()
