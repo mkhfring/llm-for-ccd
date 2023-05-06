@@ -128,11 +128,8 @@ class CloneDetectionWithExamle(CodeCloneDetection):
         return (id, prompt)
 
 def main():
-    # chat_gpt = ChatGPTRequest()
-    # data = read_data(os.path.join(current_location, 'java_test_clone_2.jsonl'))
-    
-    
-    # chat_gpt.process_prompts(prompts)
+
+
     ccd01 = CodeCloneDetection(
         os.path.join(current_location, 'java_test_clone_2.jsonl'),
         temperature=0.1
@@ -152,19 +149,19 @@ def main():
     )
     analyser2.compute_metrics('Metrics for java temperature 0.3', save_to_file=True)
     
-    # ccd05 = CodeCloneDetection(
-    #     os.path.join(current_location, 'java_test_clone_2.jsonl'),
-    #     temperature=0.5
-    # )
-    # ccd05.run_processing(
-    #     os.path.join(current_location, 'results', 'requested_ids_0.5.txt'), 
-    #     os.path.join(current_location, 'results', 'results_java_0.5.txt')
-    # )
-    # analyser3 = Analyser(
-    #     ccd05.data_file,
-    #     ccd05.output_file
-    # )
-    # analyser3.compute_metrics('Metrics for java temperature 0.5', save_to_file=True)
+    ccd05 = CodeCloneDetection(
+        os.path.join(current_location, 'java_test_clone_2.jsonl'),
+        temperature=0.5
+    )
+    ccd05.run_processing(
+        os.path.join(current_location, 'results', 'requested_ids_0.5.txt'), 
+        os.path.join(current_location, 'results', 'results_java_0.5.txt')
+    )
+    analyser3 = Analyser(
+        ccd05.data_file,
+        ccd05.output_file
+    )
+    analyser3.compute_metrics('Metrics for java temperature 0.5', save_to_file=True)
     
     cross_lingual_analyser = Analyser(
         os.path.join(current_location, 'ruby_java_test_clone2.jsonl'),
@@ -172,146 +169,127 @@ def main():
     )
     cross_lingual_analyser.compute_metrics('Metrics for ruby java temperature 03', save_to_file=True)
     
-    # ccd03_prompt1 = CodeCloneDetection(
-    #     os.path.join(current_location, 'java_test_clone_2.jsonl'),
-    #     temperature=0.3,
-    #     nl_instruction='Are code1 and code2 code clones?answer with yes or no and no explanation.'
-    # )
-    # ccd03_prompt1.run_processing(
-    #     os.path.join(current_location, 'requested_ids_0.3_prompt1.txt'),
-    #     os.path.join(current_location, 'results', 'results_for_java_prompt1.txt')
-    # )
-    # analyser_prompt1 = Analyser(
-    #     ccd03_prompt1.data_file,
-    #     ccd03_prompt1.output_file
-    # )
-    # analyser_prompt1.compute_metrics(
-    #     'Metrics for Java temperature 0.3 prompt1',
-    #     save_to_file=True
-    # )
-    
-    # #Prompt1_Ruby_java
-    # ccd03_prompt1_ruby_java = CodeCloneDetection(
-    #     os.path.join(current_location, 'ruby_java_test_clone2.jsonl'),
-    #     temperature=0.3,
-    #     nl_instruction='Are code1 and code2 code clones?answer with yes or no and no explanation.'
-    # )
-    # ccd03_prompt1_ruby_java.run_processing(
-    #     os.path.join(current_location, 'results', 'requested_ids_0.3_prompt1_ruby_java.txt'),
-    #     os.path.join(current_location, 'results', 'results_for_java_ruby_prompt1.txt')
-    # )
-    # analyser_prompt1_ruby_java = Analyser(
-    #     ccd03_prompt1_ruby_java.data_file,
-    #     ccd03_prompt1_ruby_java.output_file
-    # )
-    # analyser_prompt1_ruby_java.compute_metrics(
-    #     'Metrics for Java Ruby with temperature 0.3 prompt1',
-    #     save_to_file=True
-    # )
-    # assert 1 == 1
-    
-    # ccd01_prompt2 = CodeCloneDetection(
-    #     os.path.join(current_location, 'java_test_clone_2.jsonl'),
-    #     temperature=0.3,
-    #     nl_instruction='do code 1 and code 2 solve identical problems? answer with yes or no and no explanation.'
-    # )
-    # ccd01_prompt2.run_processing(
-    #     os.path.join(current_location, 'results', 'requested_ids_0.3_prompt2.txt'), 
-    #     os.path.join(current_location, 'results', 'results_java_03_prompt2.txt')
-    # )
-    # analyser_prompt2 = Analyser(
-    #     ccd01_prompt2.data_file,
-    #     ccd01_prompt2.output_file
-    # )
-    # analyser_prompt2.compute_metrics('Metrics for java temperature 0.3 prompt2', save_to_file=True)
-    
-    # # Ruby-Java
-    # ccd01_prompt2_ruby_java = CodeCloneDetection(
-    #     os.path.join(current_location, 'ruby_java_test_clone2.jsonl'),
-    #     temperature=0.3,
-    #     nl_instruction='do code 1 and code 2 solve identical problems? answer with yes or no and no explanation.'
-    # )
-    # ccd01_prompt2_ruby_java.run_processing(
-    #     os.path.join(current_location, 'results', 'requested_ids_0.3_prompt2_ruby_java.txt'), 
-    #     os.path.join(current_location, 'results', 'results_java_03_prompt2_ruby_java.txt')
-    # )
-    # analyser_prompt2_ruby_java = Analyser(
-    #     ccd01_prompt2_ruby_java.data_file,
-    #     ccd01_prompt2_ruby_java.output_file
-    # )
-    # analyser_prompt2_ruby_java.compute_metrics('Metrics for ruby-java temperature 0.3 prompt2', save_to_file=True)
-    
-    # ##With one random Example
-    # cc03_java_with_example = CloneDetectionWithExamle(
-    #     os.path.join(current_location, 'java_test_clone_small.jsonl'),
-    #     temperature=0.3,
-    # )
-    # cc03_java_with_example.run_processing(
-    #     os.path.join(current_location, 'results', 'requested_ids_0.3_java_with_example.txt'), 
-    #     os.path.join(current_location, 'results', 'results_java_03_with_example.txt')
-    # )
-    # analyser_java_with_example = Analyser(
-    #     cc03_java_with_example.data_file,
-    #     cc03_java_with_example.output_file
-    # )
-    # analyser_java_with_example.compute_metrics('Metrics for Java with example temperature 0.3', save_to_file=True)
-
-    #using description
-    # ccd03_prompt_description_java = CodeCloneDetection(
-    #     os.path.join(current_location, 'java_test_clone_2.jsonl'),
-    #     temperature=0.3,
-    #     nl_instruction='Do code1 and code2 have the same description? answer with yes or no and no explanation.'
-    # )
-    # ccd03_prompt_description_java.run_processing(
-    #     os.path.join(current_location, 'results', 'requested_ids_0.3_prompt_description_java.txt'),
-    #     os.path.join(current_location, 'results', 'results_for_java_prompt_Description.txt')
-    # )
-    # analyser_prompt_description_java = Analyser(
-    #     ccd03_prompt_description_java.data_file,
-    #     ccd03_prompt_description_java.output_file
-    # )
-    # analyser_prompt_description_java.compute_metrics(
-    #     'Metrics for Java with temperature 0.3 description prompt',
-    #     save_to_file=True
-    # )
-    
-    #Java Ruby Description
-    # ccd03_prompt_description_ruby_java = CodeCloneDetection(
-    #     os.path.join(current_location, 'ruby_java_test_clone2.jsonl'),
-    #     temperature=0.3,
-    #     nl_instruction='Do code1 and code2 have the same description? answer with yes or no and no explanation.'
-    # )
-    # ccd03_prompt_description_ruby_java.run_processing(
-    #     os.path.join(current_location, 'results', 'requested_ids_0.3_prompt_description_ruby_java.txt'),
-    #     os.path.join(current_location, 'results', 'results_for_ruby_java_prompt_Description.txt')
-    # )
-    # analyser_prompt_description_ruby_java = Analyser(
-    #     ccd03_prompt_description_ruby_java.data_file,
-    #     ccd03_prompt_description_ruby_java.output_file
-    # )
-    # analyser_prompt_description_ruby_java.compute_metrics(
-    #     'Metrics for Ruby and Java with temperature 0.3 description prompt',
-    #     save_to_file=True
-    # )
-    
-    ccd03_prompt1_python = CodeCloneDetection(
-        os.path.join(current_location, 'python_test_clone.jsonl'),
+    ccd03_prompt1 = CodeCloneDetection(
+        os.path.join(current_location, 'java_test_clone_2.jsonl'),
         temperature=0.3,
         nl_instruction='Are code1 and code2 code clones?answer with yes or no and no explanation.'
     )
-    ccd03_prompt1_python.run_processing(
-        os.path.join(current_location, 'results', 'requested_ids_0.3_prompt1_python.txt'),
-        os.path.join(current_location, 'results', 'results_for_python_prompt1.txt')
+    ccd03_prompt1.run_processing(
+        os.path.join(current_location, 'requested_ids_0.3_prompt1.txt'),
+        os.path.join(current_location, 'results', 'results_for_java_prompt1.txt')
     )
-    analyser_prompt1_ruby_java = Analyser(
-        ccd03_prompt1_python.data_file,
-        ccd03_prompt1_python.output_file
+    analyser_prompt1 = Analyser(
+        ccd03_prompt1.data_file,
+        ccd03_prompt1.output_file
     )
-    analyser_prompt1_ruby_java.compute_metrics(
-        'Metrics for python with temperature 0.3 prompt1',
+    analyser_prompt1.compute_metrics(
+        'Metrics for Java temperature 0.3 prompt1',
         save_to_file=True
     )
+    
+    #Prompt1_Ruby_java
+    ccd03_prompt1_ruby_java = CodeCloneDetection(
+        os.path.join(current_location, 'ruby_java_test_clone2.jsonl'),
+        temperature=0.3,
+        nl_instruction='Are code1 and code2 code clones?answer with yes or no and no explanation.'
+    )
+    ccd03_prompt1_ruby_java.run_processing(
+        os.path.join(current_location, 'results', 'requested_ids_0.3_prompt1_ruby_java.txt'),
+        os.path.join(current_location, 'results', 'results_for_java_ruby_prompt1.txt')
+    )
+    analyser_prompt1_ruby_java = Analyser(
+        ccd03_prompt1_ruby_java.data_file,
+        ccd03_prompt1_ruby_java.output_file
+    )
+    analyser_prompt1_ruby_java.compute_metrics(
+        'Metrics for Java Ruby with temperature 0.3 prompt1',
+        save_to_file=True
+    )
+    assert 1 == 1
+    
+    ccd01_prompt2 = CodeCloneDetection(
+        os.path.join(current_location, 'java_test_clone_2.jsonl'),
+        temperature=0.3,
+        nl_instruction='do code 1 and code 2 solve identical problems? answer with yes or no and no explanation.'
+    )
+    ccd01_prompt2.run_processing(
+        os.path.join(current_location, 'results', 'requested_ids_0.3_prompt2.txt'), 
+        os.path.join(current_location, 'results', 'results_java_03_prompt2.txt')
+    )
+    analyser_prompt2 = Analyser(
+        ccd01_prompt2.data_file,
+        ccd01_prompt2.output_file
+    )
+    analyser_prompt2.compute_metrics('Metrics for java temperature 0.3 prompt2', save_to_file=True)
+    
+    # Ruby-Java
+    ccd01_prompt2_ruby_java = CodeCloneDetection(
+        os.path.join(current_location, 'ruby_java_test_clone2.jsonl'),
+        temperature=0.3,
+        nl_instruction='do code 1 and code 2 solve identical problems? answer with yes or no and no explanation.'
+    )
+    ccd01_prompt2_ruby_java.run_processing(
+        os.path.join(current_location, 'results', 'requested_ids_0.3_prompt2_ruby_java.txt'), 
+        os.path.join(current_location, 'results', 'results_java_03_prompt2_ruby_java.txt')
+    )
+    analyser_prompt2_ruby_java = Analyser(
+        ccd01_prompt2_ruby_java.data_file,
+        ccd01_prompt2_ruby_java.output_file
+    )
+    analyser_prompt2_ruby_java.compute_metrics('Metrics for ruby-java temperature 0.3 prompt2', save_to_file=True)
+    
+    ##With one random Example
+    cc03_java_with_example = CloneDetectionWithExamle(
+        os.path.join(current_location, 'java_test_clone_small.jsonl'),
+        temperature=0.3,
+    )
+    cc03_java_with_example.run_processing(
+        os.path.join(current_location, 'results', 'requested_ids_0.3_java_with_example.txt'), 
+        os.path.join(current_location, 'results', 'results_java_03_with_example.txt')
+    )
+    analyser_java_with_example = Analyser(
+        cc03_java_with_example.data_file,
+        cc03_java_with_example.output_file
+    )
+    analyser_java_with_example.compute_metrics('Metrics for Java with example temperature 0.3', save_to_file=True)
 
+    # using description
+    ccd03_prompt_description_java = CodeCloneDetection(
+        os.path.join(current_location, 'java_test_clone_2.jsonl'),
+        temperature=0.3,
+        nl_instruction='Do code1 and code2 have the same description? answer with yes or no and no explanation.'
+    )
+    ccd03_prompt_description_java.run_processing(
+        os.path.join(current_location, 'results', 'requested_ids_0.3_prompt_description_java.txt'),
+        os.path.join(current_location, 'results', 'results_for_java_prompt_Description.txt')
+    )
+    analyser_prompt_description_java = Analyser(
+        ccd03_prompt_description_java.data_file,
+        ccd03_prompt_description_java.output_file
+    )
+    analyser_prompt_description_java.compute_metrics(
+        'Metrics for Java with temperature 0.3 description prompt',
+        save_to_file=True
+    )
+    
+    ccd03_prompt_description_ruby_java = CodeCloneDetection(
+        os.path.join(current_location, 'ruby_java_test_clone2.jsonl'),
+        temperature=0.3,
+        nl_instruction='Do code1 and code2 have the same description? answer with yes or no and no explanation.'
+    )
+    ccd03_prompt_description_ruby_java.run_processing(
+        os.path.join(current_location, 'results', 'requested_ids_0.3_prompt_description_ruby_java.txt'),
+        os.path.join(current_location, 'results', 'results_for_ruby_java_prompt_Description.txt')
+    )
+    analyser_prompt_description_ruby_java = Analyser(
+        ccd03_prompt_description_ruby_java.data_file,
+        ccd03_prompt_description_ruby_java.output_file
+    )
+    analyser_prompt_description_ruby_java.compute_metrics(
+        'Metrics for Ruby and Java with temperature 0.3 description prompt',
+        save_to_file=True
+    )
+    
 if __name__ == "__main__":
     main()
 
