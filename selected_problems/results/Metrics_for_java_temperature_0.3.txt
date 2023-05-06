@@ -1,5 +1,0 @@
-Metrics for java temperature 0.3
-
-F1 score: 0.8782687105500451
-Precision: 0.784219001610306
-Recall: 0.9979508196721312

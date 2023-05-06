@@ -1,5 +1,0 @@
-Metrics for python with temperature 0.3 prompt1
-
-F1 score: 0.8321678321678322
-Precision: 1.0
-Recall: 0.7125748502994012

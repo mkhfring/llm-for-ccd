@@ -1,5 +1,0 @@
-Metrics for Java with example temperature 0.3
-
-F1 score: 0.8959435626102293
-Precision: 0.8698630136986302
-Recall: 0.9236363636363636
