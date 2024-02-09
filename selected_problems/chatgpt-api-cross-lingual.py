@@ -43,12 +43,12 @@ def make_probmpt(id, code1, code2):
 
 
 class ChatGPTRequest:
-    def __init__(self):
+    def __init__(self, api_key):
         self.results = []
-        self.api_key = self._read_api_key()
+        self.api_key = self._read_api_key(api_key)
 
-    def _read_api_key(self):
-        with open("/Users/mohamadkhajezade/workspace/openai.txt", "r") as file:
+    def _read_api_key(self, api_key):
+        with open(api_key, "r") as file:
             return file.readline().strip()
 
     def _send_request(self, prompt_id, prompt):
@@ -84,7 +84,7 @@ class ChatGPTRequest:
                 file.write(f"***Data Id {sample_id}: {result['choices'][0]['message']['content'].strip()}+++\n \n")
 
 def main():
-    chat_gpt = ChatGPTRequest()
+    chat_gpt = ChatGPTRequest("/path/to/your/api_key.txt")
     data = read_data(os.path.join(current_location, 'ruby_java_test_clone.jsonl'))
     prompts = [make_probmpt(d['id'], d['code1'], d['code2']) for d in data]
     
