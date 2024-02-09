@@ -1,4 +1,4 @@
-# Exploiting Large Language Models for Non-Generative Code Classification Tasks
+# Investigating the Efficacy of Large Language Models for Code Clone Detection
 
 This repository contains all source code and data associated with the research paper entitled "Leveraging Large Language Models for Non-Generative Code Classification Tasks."
 
